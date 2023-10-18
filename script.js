@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
   let ans=0;
-	let initialdiff=Number.MAX_VALUE;
+	let initialdiff=Infinity;
 	for(let i=0;i<arr.length-3;i++){
 
 		for (let j = i+1; j <arr.length-2; j++) {
@@ -14,7 +14,6 @@ function threeSum(arr, target) {
 		}
 	}
 	return ans;
-  
 }
 
 module.exports = threeSum;
