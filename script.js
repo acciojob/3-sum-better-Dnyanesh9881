@@ -6,7 +6,7 @@ function threeSum(arr, target) {
 			 for (let k = j+1; k <arr.length; k++) {
 			   let sum=arr[i]+arr[j]+arr[k];
 				 let diff=Math.abs(sum-target);
-				 if(diff<=ans){
+				 if(diff<ans){
 					 ans=sum;
 				 }
 			 }
