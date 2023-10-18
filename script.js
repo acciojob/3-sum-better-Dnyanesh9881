@@ -1,5 +1,5 @@
 function threeSum(arr, target) {
-  let ans=Number.MAX_VALUE;
+  let ans=0
 	let initialdiff=Number.MAX_VALUE;
 	for(let i=0;i<arr.length-3;i++){
 
