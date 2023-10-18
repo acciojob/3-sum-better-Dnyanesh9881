@@ -9,7 +9,7 @@ function threeSum(arr, target) {
 				 let diff=Math.abs(sum-target);
 				 if(diff<initialdiff){
 					 ans=sum;
-					 initialdiff=diff;
+					 
 				 }
 			 }
 		}
