@@ -1,10 +1,11 @@
 function threeSum(arr, target) {
   let ans=0;
 	let initialdiff=Number.MAN_VALUE;
-	for(let i=0;i<arr.length-2;i++){
+	let n=arr.length
+	for(let i=0;i<=n-3;i++){
 
-		for (let j = i+1; j<arr.length-1; j++) {
-			 for (let k = j+1; k<arr.length; k++) {
+		for (let j = i+1; j<=n-2; j++) {
+			 for (let k = j+1; k<=n-1; k++) {
 			   let sum=arr[i]+arr[j]+arr[k];
 				 let diff=Math.abs(sum-target);
 				 if(initialdiff>diff){
